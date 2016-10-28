@@ -1,0 +1,9 @@
+language: bash
+
+sudo: required
+dist: trusty
+
+services:
+    - docker
+
+script: bash ./scripts/build.sh
